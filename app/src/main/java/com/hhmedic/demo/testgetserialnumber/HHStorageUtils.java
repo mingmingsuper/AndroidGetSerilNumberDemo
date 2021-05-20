@@ -9,7 +9,6 @@ import java.io.IOException;
 public final class HHStorageUtils {
 
     private static final String EXTERNAL_STORAGE_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE";
-    private static final String INDIVIDUAL_DIR_NAME = "uil-images";
 
     public static File getCacheDirectory(Context context) {
         return getCacheDirectory(context, true);
